@@ -19,6 +19,10 @@ export default {
           800: "#3730a3",
           900: "#312e81",
         },
+
+        yellow: {
+          primary: "#e8db84 ",
+        },
       },
     },
   },

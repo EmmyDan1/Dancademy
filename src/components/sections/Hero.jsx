@@ -38,7 +38,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
             >
-              <Button size="lg" className="w-full bg-[#e8db84] sm:w-auto">
+              <Button size="lg" className="w-full bg-yellow-primary sm:w-auto">
                 Browse Courses
               </Button>
               <Button
