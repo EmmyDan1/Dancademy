@@ -1,12 +1,42 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# E-Learning Platform 🎓
 
-Currently, two official plugins are available:
+A responsive and modern e-learning web application built with **React**, **Tailwind CSS**, and **Framer Motion**. This platform allows users to browse, enroll, and track online courses with a clean and intuitive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📚 Course catalog and enrollment
+- 👤 User dashboard with profile and learning stats
+- 🛠 Authentication system with context
+- 🧭 Section-based navigation
+- 📱 Fully responsive and mobile-friendly UI
+- ✨ Smooth animations with Framer Motion
+- 🌗 Clean component structure for easy scalability
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Project Structure
+src/
+│
+├── components/ # Reusable UI elements
+├── context/ # Auth context
+├── hooks/ # Custom hooks
+├── pages/ # Main pages (Home, Dashboard, etc.)
+├── sections/ # Page-specific sections like Hero, Features
+├── assets/ # Static files like images and icons
+└── App.jsx # Root component
+
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **Framer Motion**
+- **React Router**
+- **Context API**
+
+## 📦 Setup
+
+```bash
+npm install
+npm run dev
+
+
